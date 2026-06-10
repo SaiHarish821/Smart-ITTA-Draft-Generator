@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart ITTA Draft Generator</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2300d4ff'/><text y='22' x='4' font-size='20'>⚡</text></svg>">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="topbar-logo">
+      <div class="logo-icon">⚡</div>
+      Smart ITTA
+    </div>
+    <span class="topbar-badge">Draft Generator</span>
+    <div class="topbar-spacer"></div>
+    <div class="azure-status">
+      <div class="status-dot" id="status-dot"></div>
+      <span id="status-label">Checking…</span>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <div class="sidebar-section-label">Navigation</div>
+
+    <div class="nav-item active" data-page="dashboard" onclick="navigate('dashboard')">
+      <span class="nav-icon">🏠</span>
+      Dashboard
+    </div>
+
+    <div class="nav-item" data-page="documents" onclick="navigate('documents')">
+      <span class="nav-icon">📚</span>
+      Knowledge Base
+      <span class="nav-badge" id="badge-documents">0</span>
+    </div>
+
+    <div class="nav-item" data-page="generate" onclick="navigate('generate')">
+      <span class="nav-icon">⚡</span>
+      Generate ITTA
+    </div>
+
+    <div class="nav-item" data-page="history" onclick="navigate('history')">
+      <span class="nav-icon">📋</span>
+      Draft History
+      <span class="nav-badge" id="badge-history">0</span>
+    </div>
+
+    <div class="nav-item" data-page="review" onclick="navigate('review')" id="nav-review" style="display:none">
+      <span class="nav-icon">🔍</span>
+      Review Draft
+      <span class="review-badge under_review" id="badge-review" style="font-size:9px;padding:2px 6px">Review</span>
+    </div>
+
+    <div style="flex:1"></div>
+    <div class="sidebar-section-label">Powered by</div>
+    <div style="padding:12px 20px;font-size:10px;color:var(--text-muted);font-family:'IBM Plex Mono',monospace;line-height:1.8">
+      Azure AI Foundry<br>
+      Azure Doc Intelligence<br>
+      FAISS Vector Search<br>
+      FastAPI · Python
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="main-content" id="main-content">
+    <!-- Rendered by app.js -->
+  </main>
+
+</div>
+
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loading-overlay" style="display:none">
+  <div class="spinner" style="width:40px;height:40px;border-width:3px"></div>
+  <div class="loading-content">
+    <div class="loading-title" id="loading-title">Generating ITTA Draft</div>
+    <div class="loading-sub" id="loading-sub">Analysing demand and assessing towers…</div>
+  </div>
+  <div class="progress-bar-track">
+    <div class="progress-bar-fill"></div>
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div class="toast-container" id="toast-container"></div>
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>

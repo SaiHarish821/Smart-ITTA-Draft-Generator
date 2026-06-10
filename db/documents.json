@@ -1,0 +1,117 @@
+{
+  "2740e693-ab4b-4657-86ba-bfdad5c431aa": {
+    "id": "2740e693-ab4b-4657-86ba-bfdad5c431aa",
+    "filename": "2740e693-ab4b-4657-86ba-bfdad5c431aa.pdf",
+    "original_name": "ITTA_Database_Transformation_2024.pdf",
+    "status": "ready",
+    "page_count": 2,
+    "chunk_count": 4,
+    "towers_detected": [
+      "Cloud",
+      "Security",
+      "Infrastructure",
+      "Network",
+      "Database",
+      "Applications",
+      "Governance & Compliance",
+      "Monitoring & Observability"
+    ],
+    "uploaded_at": "2026-06-04T06:32:22.325440",
+    "error": null
+  },
+  "1eb0e288-b609-4084-af49-72a56a5af8e9": {
+    "id": "1eb0e288-b609-4084-af49-72a56a5af8e9",
+    "filename": "1eb0e288-b609-4084-af49-72a56a5af8e9.pdf",
+    "original_name": "ITTA_MA_Infra_2025.pdf",
+    "status": "ready",
+    "page_count": 2,
+    "chunk_count": 4,
+    "towers_detected": [
+      "Cloud",
+      "Security",
+      "Network",
+      "Database",
+      "Applications",
+      "Governance & Compliance",
+      "Monitoring & Observability"
+    ],
+    "uploaded_at": "2026-06-04T06:32:22.407990",
+    "error": null
+  },
+  "8ab247fa-2194-4b4e-8913-e03c3f84aa60": {
+    "id": "8ab247fa-2194-4b4e-8913-e03c3f84aa60",
+    "filename": "8ab247fa-2194-4b4e-8913-e03c3f84aa60.pdf",
+    "original_name": "ITTA_Security_Modernization_2024.pdf",
+    "status": "ready",
+    "page_count": 2,
+    "chunk_count": 4,
+    "towers_detected": [
+      "Cloud",
+      "Security",
+      "Network",
+      "Database",
+      "Applications",
+      "Governance & Compliance",
+      "Monitoring & Observability"
+    ],
+    "uploaded_at": "2026-06-04T06:32:22.447344",
+    "error": null
+  },
+  "5e0d1f4e-646c-4f20-824f-e65a45cf10b0": {
+    "id": "5e0d1f4e-646c-4f20-824f-e65a45cf10b0",
+    "filename": "5e0d1f4e-646c-4f20-824f-e65a45cf10b0.pdf",
+    "original_name": "ITTA_App_Modernization_2025.pdf",
+    "status": "ready",
+    "page_count": 2,
+    "chunk_count": 4,
+    "towers_detected": [
+      "Cloud",
+      "Security",
+      "Network",
+      "Database",
+      "Applications",
+      "Governance & Compliance",
+      "Monitoring & Observability"
+    ],
+    "uploaded_at": "2026-06-04T06:32:22.492169",
+    "error": null
+  },
+  "06c6c4fb-3f1a-4059-8544-8fb50c8e4d85": {
+    "id": "06c6c4fb-3f1a-4059-8544-8fb50c8e4d85",
+    "filename": "06c6c4fb-3f1a-4059-8544-8fb50c8e4d85.pdf",
+    "original_name": "ITTA_Cloud_Migration_2024.pdf",
+    "status": "ready",
+    "page_count": 2,
+    "chunk_count": 4,
+    "towers_detected": [
+      "Cloud",
+      "Security",
+      "Network",
+      "Database",
+      "Applications",
+      "Governance & Compliance",
+      "Monitoring & Observability"
+    ],
+    "uploaded_at": "2026-06-04T06:32:22.523802",
+    "error": null
+  },
+  "0783d97f-f012-4696-af4c-ec43e26a7de4": {
+    "id": "0783d97f-f012-4696-af4c-ec43e26a7de4",
+    "filename": "0783d97f-f012-4696-af4c-ec43e26a7de4.pdf",
+    "original_name": "ITTA_Enterprise_Transformation_Document.pdf",
+    "status": "ready",
+    "page_count": 2,
+    "chunk_count": 5,
+    "towers_detected": [
+      "Cloud",
+      "Security",
+      "Infrastructure",
+      "Network",
+      "Database",
+      "Applications",
+      "Governance & Compliance"
+    ],
+    "uploaded_at": "2026-06-04T09:40:00.512571",
+    "error": null
+  }
+}
